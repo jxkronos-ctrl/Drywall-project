@@ -1,0 +1,28 @@
+body {
+    background-color: gray;
+}
+
+.drywall-card {
+background-color: white;
+margin-left: 20px;
+margin-top: 10px;
+text-align: center;
+border-radius: 10px;
+overflow: hidden;
+width: 500px;
+}
+.drywall-hole {
+  display: block;
+  width: 100%;  
+}
+.post-title {
+    color: orange;
+    margin: 40px;
+}
+.post-description {
+    color: black;
+    margin: 40px;
+}
+.drywall-content {
+    padding: 20px;
+}
