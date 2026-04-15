@@ -3,7 +3,7 @@ body {
 }
 
 .drywall-card {
-background-color: white;
+background-color: rgba(255, 255, 255, 0.311);
 margin-left: 20px;
 margin-top: 10px;
 text-align: center;
@@ -17,7 +17,7 @@ width: 500px;
   border-bottom: solid black 1px; 
 }
 .post-title {
-    color: orange;
+    color: rgb(255, 98, 0);
     margin: 40px;
 }
 .post-description {
@@ -26,4 +26,56 @@ width: 500px;
 }
 .drywall-content {
     padding: 20px;
+}
+.card-2 {
+    background-color: rgba(255, 255, 255, 0.29);
+    width: 500px;
+    border-radius: 10px;
+    margin: 10px 20px;
+    overflow: hidden;
+}
+.pic-repair-tools {
+    display: block;
+    width: 100%;
+}
+.tools-needed {
+    padding: 10px;
+}
+.tools-description {
+    padding: 10px;
+}
+#part1 {
+    background-color: rgba(255, 255, 255, 0.833);
+    width: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 20px;
+}
+.part-1-title {
+    padding-left: 10px;
+}
+ nav a {
+    text-decoration: none;
+    display: block;
+ }
+ nav a:link {
+    color: rgba(0, 0, 0, 0.877);
+ }
+ nav a:visited {
+    color: purple;
+ }
+ nav a:hover {
+    color: orange;
+ }
+ nav a:active {
+    color: rgb(0, 128, 0);
+ }
+ .patch-piece-img {
+    width: 100%;
+    height: auto;
+    display: block;
+ }
+#part2 {
+    background: linear-gradient(gray, beige);
+    color: rgba(7, 0, 0, 0.742);
 }
