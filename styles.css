@@ -1,9 +1,9 @@
 body {
-    background-color: gray;
+    background-color: grey;
 }
 
 .drywall-card {
-background-color: rgba(255, 255, 255, 0.311);
+background: linear-gradient(grey,white,beige,grey);
 margin-left: 20px;
 margin-top: 10px;
 text-align: center;
@@ -17,7 +17,7 @@ width: 500px;
   border-bottom: solid black 1px; 
 }
 .post-title {
-    color: rgb(255, 98, 0);
+    color: rgb(18, 9, 3);
     margin: 40px;
 }
 .post-description {
@@ -28,7 +28,7 @@ width: 500px;
     padding: 20px;
 }
 .card-2 {
-    background-color: rgba(255, 255, 255, 0.29);
+    background: linear-gradient(grey, white, beige, grey);
     width: 500px;
     border-radius: 10px;
     margin: 10px 20px;
@@ -45,7 +45,7 @@ width: 500px;
     padding: 10px;
 }
 #part1 {
-    background-color: rgba(255, 255, 255, 0.833);
+    background: linear-gradient(grey, white, beige, grey);
     width: auto;
     border-radius: 10px;
     overflow: hidden;
@@ -76,6 +76,12 @@ width: 500px;
     display: block;
  }
 #part2 {
-    background: linear-gradient(gray, beige);
+    background: linear-gradient(grey, white, beige, grey);
     color: rgba(7, 0, 0, 0.742);
+}
+#part3 {
+    background: linear-gradient(grey, white, beige, grey);
+}
+#further-resources {
+    background: linear-gradient(grey, white, beige, grey);
 }
